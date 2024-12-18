@@ -1347,7 +1347,9 @@ normalizers (in order of priority):
     ByUsing the PropertyInfoExtractor you can simply annotate the arrays by '@var Person[]'
 
     .. configuration-block::
+
         .. code-block:: php-standalone
+
             use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
             use Symfony\Component\PropertyInfo\Extractor\ReflectionExtractor;
             use Symfony\Component\PropertyInfo\PropertyInfoExtractor;
